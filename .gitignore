@@ -1,0 +1,16 @@
+# user-specified ignores
+loan_data.csv
+randomforest.md
+notebooks/experimentation.ipynb
+notebooks/xgboost.ipynb
+
+# python
+.venv/
+__pycache__/
+*.pyc
+
+# jupyter
+.ipynb_checkpoints/
+
+# macOS
+.DS_Store
