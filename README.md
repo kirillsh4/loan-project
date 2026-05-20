@@ -59,7 +59,7 @@ python train.py
 
 Outputs after a successful run:
 - `model.joblib` — the fitted best estimator
-- `metrics.json` — best params, CV F1, test metrics, top-10 feature importances
+- `metrics.json` — best params, CV F1 precision and recall for both train and test, top-10 feature importances
 
 ### In progress features/notes
 
