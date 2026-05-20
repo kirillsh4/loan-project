@@ -37,7 +37,7 @@ Both the train and test scores are very similar meaning it is safe to assume the
 
 The imbalanced split between loan defaulters and non-defaulters matters for how precision and recall are evaluated. And which metric is more important is dependant on the purpose of the model/business objective.
 
-For example, if the main goal of this model is to avoid losses from defaults, recall is the important metric as it measures false-negatives. In this case (0.76 recall), depending on the cost of a default, the decision threshold may need to be shifted downward to trade some precision for more recall. 
+For example, if the primary business goal is to avoid losses from defaults, recall is the important metric as it measures false-negatives. In this case (0.76 recall), depending on the cost of a default, the decision threshold may need to be shifted downward to trade some precision for more recall. 
 
 Top features: (features which affect whether a customer will default a loan or not)
 
